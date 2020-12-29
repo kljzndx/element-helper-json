@@ -90,11 +90,11 @@
     "defaults": ["v-model", "placeholder"]
   },
   "el-time-picker": {
-    "attributes": ["readonly", "editable", "disabled", "clearable", "size", "placeholder", "start-placeholde", "end-placeholde", "value", "align", "picker-options", "range-separator", "popper-class", "is-range", "arrow-control", "value-format", "default-value", "change", "blur", "focus"],
+    "attributes": ["readonly", "editable", "disabled", "clearable", "size", "placeholder", "start-placeholder", "end-placeholder", "value", "align", "range-separator", "popper-class", "is-range", "arrow-control", "format", "default-value", "change", "blur", "focus", "disabledHours", "disabledMinutes", "disabledSeconds"],
     "defaults": ["v-model", "placeholder"]
   },
   "el-date-picker": {
-    "attributes": ["readonly", "editable", "disabled", "clearable", "size", "placeholder", "start-placeholde", "end-placeholde", "time-arrow-control", "type", "format", "align", "popper-class", "picker-options", "range-separator", "default-value", "default-time", "value-format", "name", "unlink-panels", "prefix-icon", "clear-icon", "change"],
+    "attributes": ["readonly", "editable", "disabled", "clearable", "size", "placeholder", "start-placeholder", "end-placeholder", "time-arrow-control", "type", "format", "align", "popper-class", "range-separator", "default-value", "default-time", "format", "name", "unlink-panels", "prefix-icon", "clear-icon", "change", "shortcuts", "disabledDate"],
     "defaults": ["v-model", "placeholder"]
   },
   "el-upload": {
@@ -172,7 +172,7 @@
     "subtags": ["el-submenu", "el-menu-item"]
   },
   "el-submenu": {
-    "attributes": ["index", "popper-class", "show-timeout", "hide-timeout", "disabled"],
+    "attribute": ["index", "popper-class", "show-timeout", "hide-timeout", "disabled"],
     "defaults": ["index"],
     "subtags": ["el-menu-item"]
   },
